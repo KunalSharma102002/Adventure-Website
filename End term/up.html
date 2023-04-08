@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="up.css">
+    
+</head>
+<body>
+  <div class="bg">
+    <center>
+    <form action="connect.php" method=POST>
+        <table> <bold>
+            <caption class="reg"><h1>Experience Now</h1></caption>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td>&nbsp;</td></tr>
+          
+          
+          
+            <tr><td> <label for="firstName">Name:</label> &nbsp; &nbsp; &nbsp;</td>
+                <td>&nbsp;</td>
+                <td><input type="text" maxlength="20" title="Enter Your Name" placeholder="Enter Your Name" name="first_name" class="name" required></td>
+           </tr>
+           <tr><td>&nbsp;</td></tr>
+            <tr>
+                <td><label for="emailAddress">Email:</label></td>
+                <td>&nbsp;</td>
+                <td><input type="email" title="Enter Your Email" maxlength="20" name="email_address" placeholder="Enter Your Email" class="name"  required></td>
+            </tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td><label for="MobileNum">Mobile No:</label> &nbsp;&nbsp;</td>
+                <td>&nbsp;</td>
+            <td>        
+                <input type="text" name="mobile_num" class="name"  title="Enter Your Mobile Number" pattern="[1-9]{1}[0-9]{9}" maxlength="10" placeholder="Enter Your Mobile Number"></td></tr>
+            <tr><td>&nbsp;</td></tr>
+
+          
+            <tr><td>
+                <label for="Dest"></label>
+                <select class="name" name="selec_dest" >
+                <option value="Select Destination">Select Destination</option>
+                <option value="Goa">Goa</option>
+                <option value="Manali">Manali</option>
+                <option value="Dharamshala">Dharamshala</option>
+                <option value="Srinagar">Srinagar</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Rishikesh">Rishikesh</option>
+            </select></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+         
+            <td>
+                <label for="Act"></label>
+                <select class="name" name="selec_act"><option value="Select Activity">Select Activity</option>
+                <option value="Hill Climbing">Hill Climbing</option>
+                <option value="Biking">Biking</option>
+                <option value="Surfing">Surfing</option>
+                <option value="Paraglyding">Paraglyding</option>
+                <option value="Skiing">Skiing</option>
+                <option value="Rafting">Rafting</option>
+                <option value="Other">Any Other....</option>
+            </select>
+        </td></tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <tr><td>
+            <label for="Price"></label>
+            <select  class="name" name="select_pri">
+            <option value="Select Price Range" >Select Price Range</option>
+            <option value="₹ 5000-10000">₹ 5000-10000</option>
+            <option value="₹ 10000-15000">₹ 10000-15000</option>
+            <option value="₹ 15000-20000">₹ 15000-20000</option>
+            <option value="₹ 20000-30000">₹ 20000-30000"</option>
+            <option value="More than ₹ 30000">More than ₹ 30000</option>
+            
+        </select  class="name" ></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+     
+        <td>
+            <label for="Dat"></label>
+            <input type="date" name="date">
+    </td></tr>
+
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <tr><td><input type="checkbox" class="cr" required>&nbsp;&nbsp;&nbsp;<bold>Yes,I am 18 Years or above of age </bold></td>    
+    </tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+   
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <tr>
+        <td><button type="submit" class="button" style="font-size:medium; cursor: pointer;" name="submit" id="submit"><bold>Submit</bold></button>
+        </tr>
+            </bold>                   
+        </table>          
+    </form>          
+  </center>
+</div>
+    
+</body>
+</html>
